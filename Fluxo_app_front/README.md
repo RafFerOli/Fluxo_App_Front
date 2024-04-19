@@ -1,10 +1,11 @@
-# Meu Front
+# Fluxo App Front
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
+Este pequeno projeto tem como objetivo realizar o controle de notas ficais e despesas para uma pequena empresa de prestação de serviço.
 
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+O objetivo aqui é demonstrar parte do conhecimento adquirido durante a disciplina de **Desenvolvimento Full Stack Básico**.
 
 ---
-## Como executar
+## Como executar 
 
-Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
+Basta fazer o download do projeto e abrir o arquivo `index.html` no seu browser.
+
