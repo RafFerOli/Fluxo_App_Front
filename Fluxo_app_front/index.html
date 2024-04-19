@@ -1,0 +1,52 @@
+<!-- Página ininical de navegação do sistema-->
+<!DOCTYPE HTML>
+<html>	
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<link rel="stylesheet" href="styles.css">
+
+		<!-- Titulo da aplicação -->
+		<title>Controle de Fluxo de Caixa</title>
+	</head>
+	<body>
+		
+		<!-- Cabeçalho de informações do sistema e menu-->
+		<header>	
+				
+			<div class="title">		
+				<h1>Controle de Fluxo de Caixa</h1>
+			</div>	
+			
+			<div class="banner"></div>
+
+			<ul class="menu">
+				<li><a href="index.html"><b>Home</b></a></li>
+				<li><a href="View\Cliente\Cliente.html"><b>Clientes</b></a></li>				
+				<li><a href="View\Nota\Nota.html"><b>Notas</b></a></li>
+				<li><a href="View\Despesa\Despesa.html"><b>Despesas</b></a></li>
+			</ul>
+
+		</header>
+
+		<!-- Resultado da soma de consultas para desepesa e notas-->
+		<section>
+			<div class="result"></div>
+			<div class="result">
+				<label calss="labelresult" for="SumNotas">Total de Notas Fiscais:  <input class="inputresult" type="text" id="SumNotas" placeholder="Soma" disabled></label><br>       
+			</div>
+			<div class="result">
+				<label calss="labelresult" for="SumDespesa">Total de Despesas:  <input class="inputresult" type="text" id="SumDespesa" placeholder="Soma" disabled></label><br>       
+			</div>
+			<div class="result">
+				<label calss="labelresult" for="Sum">Diferença:  <input class="inputresult" type="text" id="Sum" placeholder="Soma" disabled></label><br>       
+			</div> 
+		</section>
+
+		<!-- scrit de requisições-->
+		<script src="index.js"></script>
+
+	</body>
+</html>

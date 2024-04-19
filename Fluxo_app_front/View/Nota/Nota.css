@@ -1,0 +1,178 @@
+/*---------------------------------------------------
+
+                    Itens
+
+---------------------------------------------------*/
+#newNumber {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newClient {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newCancel {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#newDescription {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newDateEmi {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newDateBil {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newValue {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 9px 10px;
+    background-color: rgb(35, 32, 24);
+    width: 25%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.addBtn:hover {
+    background-color: #190484;
+    color: white;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.newItem {
+    background-color: rgb(225, 222, 199);
+    padding: 10px 40px 15pX;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+
+
+/*---------------------------------------------------
+
+                    Tabela
+
+---------------------------------------------------*/
+
+table{
+    table-layout:fixed;
+    background-color: white;    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+th,
+td {  
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    transition: 0.2s;
+    text-align: left;
+}
+
+tr:nth-child(odd){
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+  
+th:nth-child(1){
+    width: 7%;
+}
+
+th:nth-child(2){
+    width: 7%;
+}
+
+th:nth-child(3){
+    width: 7%;
+}
+
+th:nth-child(4){
+    width: 22%;
+}
+
+th:nth-child(5){
+    width: 21%;
+}
+
+th:nth-child(6){
+    width: 21%;
+}
+
+th:nth-child(7){
+    width: 12%;
+}
+
+th:nth-child(8){
+    width: 3%;
+}
+
+tr:hover {
+    background: rgb(200, 199, 199);
+}
+

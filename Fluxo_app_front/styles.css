@@ -1,0 +1,128 @@
+/*---------------------------------------------------
+
+                    Titulo
+
+---------------------------------------------------*/
+
+body,
+ul,
+li {
+    font-family: tahoma;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 222, 199);
+}
+
+header {
+    background-color: rgb(225, 222, 199);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.title {
+    color: white;
+    width: 100%;
+    background-color: rgb(30, 10, 95);
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.banner {
+    height: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+/*---------------------------------------------------
+
+                    Menu
+
+---------------------------------------------------*/
+.menu{
+    list-style:none;
+    border:1px solid #333; 
+    float:left;   
+    height: 40px;   
+    background-color: rgb(35, 32, 24);  
+    width: 100%;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #333; 
+    height: 38px;
+    background-color: rgb(35, 32, 24);
+}
+
+.menu li a{
+    color:#fff;
+    text-decoration:none; 
+    padding:10px 10px; 
+    display:block;
+    
+}
+
+.menu li a:hover{
+    background:#fff; ;
+    color:#333;
+    text-shadow:0px 0px 5px #333;
+    
+}
+
+.menu li  ul{
+    position:relative;
+    top:25px;
+    left:0;
+    background-color:#333;
+    display:none;
+    
+}
+
+.menu li:hover ul, 
+.menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    border:1px solid #333;
+    display:block;
+    width:150px;    
+}
+
+/*---------------------------------------------------
+
+                    Resultado
+
+---------------------------------------------------*/
+
+.result{
+    padding: 20px;
+    align-items: center;  
+    text-align:right;
+    table-layout:auto;     
+    width: 98%;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.labelresult{    
+    width: 15%;    
+}
+
+.inputresult{    
+    width: 15%;
+    font-family: arial, sans-serif;
+    font-size: 22px;
+}

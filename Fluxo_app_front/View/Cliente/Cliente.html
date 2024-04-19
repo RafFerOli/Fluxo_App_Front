@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Cliente.css">
+    <link rel="stylesheet" href="..\..\styles.css">
+
+    <title>Controle de Fluxo de Caixa - Clientes</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema e menu-->
+    <header>
+        <div class="title">
+            <h1>Lista de Clientes</h1>
+        </div>
+        
+        <div class="banner"></div>
+
+        <ul class="menu">
+            <li><a href="..\..\index.html"><b>Home</b></a></li>
+            <li><a href="..\Cliente\Cliente.html"><b>Clientes</b></a></li>
+            <li><a href="..\Nota\Nota.html"><b>Notas</b></a></li>
+            <li><a href="..\Despesa\Despesa.html"><b>Despesas</b></a></li>
+           
+        </ul>     
+    </header>
+
+    <!-- Opções para adicionar um novo item -->
+    <section class="newItem">
+            <input type="text" id="newInput" placeholder="Adicionar novo Cliente:">       
+            <input type="text" id="newDescription" placeholder="Descrição:">
+            <input type="text" id="newCNPJ" placeholder="CNPJ:">
+            <button onclick="newItem()" class="addBtn">Adicionar</button>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">     
+        <table id="myTable">
+            <tr>
+                <th>Numero</th>
+                <th>Nome</th>
+                <th>Descricao</th>
+                <th>CNPJ</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></td>
+            </tr>
+        </table>        
+    </section>
+
+    <script src="Cliente.js"></script>
+    <script src="..\..\script.js"></script>
+</body>
+
+</html>
+
+

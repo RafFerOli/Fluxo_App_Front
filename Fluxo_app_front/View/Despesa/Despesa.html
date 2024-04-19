@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Despesa.css">
+    <link rel="stylesheet" href="..\..\styles.css">
+
+    <title>Controle de Fluxo de Caixa - Despesas</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema e menu -->
+    <header>
+        <div class="title">
+            <h1>Lista de Despesas</h1>
+        </div>
+        
+        <div class="banner"></div>
+
+        <ul class="menu">
+            <li><a href="..\..\index.html"><b>Home</b></a></li>
+            <li><a href="..\Cliente\Cliente.html"><b>Clientes</b></a></li>
+            <li><a href="..\Nota\Nota.html"><b>Notas</b></a></li>
+            <li><a href="..\Despesa\Despesa.html"><b>Despesas</b></a></li>           
+        </ul>  
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <section class="newItem">           
+        <input type="text" id="newDescription" placeholder="Descrição:">
+        <input type="text" id="newDate" placeholder="Data:">
+        <input type="text" id="newValue" placeholder="Valor:">
+        <button onclick="newItem()" class="addBtn">Adicionar</button>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">     
+            <table id="myTable">
+                <tr>
+                    <th>Numero</th>
+                    <th>Descricao</th>
+                    <th>Data</th>
+                    <th>Valor</th>
+                    <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></td>
+                </tr>
+            </table>        
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <footer> 
+        <div class="result">
+            <label calss="labelresult" style="padding-right: 15px;" for="Sum">Valor Total de Despesas:  <input class="inputresult" type="text" id="Sum" placeholder="Soma" disabled></label><br>       
+        </div>        
+    </footer>
+
+    <script src="Despesa.js"></script>
+    <script src="..\..\script.js"></script>
+</body>
+
+</html>
+
+
